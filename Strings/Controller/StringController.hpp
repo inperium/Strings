@@ -12,7 +12,8 @@
 class StringController
 {
 private:
-
+    void length();
+    void empty();
 public:
     void start();
 };

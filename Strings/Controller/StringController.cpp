@@ -13,5 +13,21 @@ using namespace std;
 
 void StringController :: start()
 {
-    
+    length();
+    empty();
 }
+
+void StringController :: length()
+{
+    string withLength;
+    withLength = "This checks the String Length";
+    cout << withLength.length() << endl;
+}
+
+void StringController :: empty()
+{
+    string withEmpty;
+    withEmpty = "This checks if the String is empty";
+    cout << withEmpty.empty() << endl;
+}
+
