@@ -13,7 +13,12 @@ class StringController
 {
 private:
     void length();
+    void useBrackets();
+    void atInt();
     void empty();
+    void substringWithEnd();
+    void substringWithStart();
+    void compareString();
 public:
     void start();
 };
