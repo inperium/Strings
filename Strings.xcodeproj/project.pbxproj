@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D84E8DD31E43C7E700E4C730 /* StringRunner.cpp */,
-				D84E8DCF1E43C7AA00E4C730 /* StringController.cpp */,
 				D84E8DD01E43C7AA00E4C730 /* StringController.hpp */,
+				D84E8DCF1E43C7AA00E4C730 /* StringController.cpp */,
 			);
 			name = Controller;
 			path = ..;

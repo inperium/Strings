@@ -28,7 +28,7 @@ void StringController :: useBrackets()
     useTheBrackets = "Brackets";
     for (int i = 0; i < useTheBrackets.length(); i++)
     {
-        cout << useTheBrackets[i] << endl;
+        cout << useTheBrackets.at(i) << endl;
     }
 }
 
@@ -72,5 +72,7 @@ void StringController :: substringWithStart()
 
 void StringController:: compareString()
 {
-    
+    string firstString = "The Same";
+    string secondString = "The Same";
+    cout << firstString.compare(secondString) << endl;
 }
